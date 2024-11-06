@@ -1,0 +1,20 @@
+{
+    "name": "mitch/encrypted-pdf",
+    "type": "project",
+    "repositories": {
+        "setasign.com": {
+            "type": "composer",
+            "url": "https://www.setasign.com/downloads/"
+        }
+    },
+    "require": {
+        "tecnickcom/tcpdf": "^6.7",
+        "setasign/fpdi": "^2.6",
+        "setasign/fpdi_pdf-parser": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mitch\\EncryptedPdf\\": "src/"
+        }
+    }
+}
